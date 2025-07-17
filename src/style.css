@@ -1,0 +1,9 @@
+@import 'components/button.css';
+
+.container {
+  display: flex;
+
+  .item {
+    color: red;
+  }
+}

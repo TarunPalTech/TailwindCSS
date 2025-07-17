@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "A collection of Tailwind CSS components, utilities, and examples for building modern, responsive user interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1",
+    "postcss-nested": "^7.0.2"
+  }
+}
